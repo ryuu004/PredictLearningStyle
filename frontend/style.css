@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 700px; /* Slightly wider to accommodate more inputs */
+    text-align: center;
+    margin: 20px 0; /* Add some vertical margin for smaller screens */
+}
+
+h1 {
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.charts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.chart-wrapper {
+    position: relative; /* Needed for the canvas to be responsive */
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    height: 350px; /* Give a consistent default height */
+}
+
+.chart-wrapper h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+#feature-importance-wrapper {
+    max-height: 400px; /* Or any other height that fits your design */
+    overflow-y: auto;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+    display: flex; /* Arrange label and input in a row */
+    flex-direction: column; /* Stack label and input vertically */
+    align-items: flex-start; /* Align items to the start for better readability */
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+    white-space: nowrap; /* Prevent label from wrapping */
+}
+
+.input-group input[type="number"] {
+    width: calc(100% - 22px); /* Account for padding and border */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+button {
+    background-color: #28a745; /* Green for predict action */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 25px;
+    transition: background-color 0.3s ease;
+    width: auto; /* Adjust width based on content */
+    display: inline-block; /* Allow button to size based on content */
+    margin-right: 10px; /* Space between buttons */
+}
+
+button:last-of-type {
+    margin-right: 0; /* No margin for the last button */
+}
+
+button.secondary-button {
+    background-color: #6c757d; /* Gray for secondary action */
+}
+
+button.secondary-button:hover {
+    background-color: #5a6268;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.result-box {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    background-color: #e7f3ff;
+    min-height: 80px; /* Ensure a minimum height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-box h2 {
+    color: #007bff;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#learningStyleResult {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.loading-indicator {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #007bff;
+    display: none; /* Hidden by default */
+}
+
+.error-message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    display: none; /* Hidden by default */
+    text-align: left;
+}
+
+.disclaimer {
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px dashed #ccc;
+    border-radius: 6px;
+    text-align: left;
+    font-size: 14px;
+    color: #666;
+}
+
+.disclaimer h3 {
+    color: #999;
+    margin-top: 0;
+    margin-bottom: 10px;
+}

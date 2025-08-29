@@ -1,0 +1,6 @@
+    pandas==2.2.2
+    Flask==3.0.3
+    Flask-Cors==4.0.1
+    joblib==1.4.2
+    scikit-learn
+    imbalanced-learn

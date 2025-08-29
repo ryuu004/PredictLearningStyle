@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Style Identifier (ML)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Learning Style Identifier (ML)</h1>
+        <p>Enter the student's interaction data to predict their learning style using a Random Forest model.</p>
+
+        <div class="charts-container">
+            <div class="chart-wrapper">
+                <h3>Learning Style Distribution</h3>
+                <canvas id="styleDistributionChart"></canvas>
+            </div>
+            <div class="chart-wrapper" id="feature-importance-wrapper">
+                <h3>Feature Importance</h3>
+                <canvas id="featureImportanceChart"></canvas>
+            </div>
+            <div class="chart-wrapper">
+                <h3>Model Performance</h3>
+                <canvas id="modelPerformanceChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Input fields matching the features used in the backend model -->
+        <div class="input-group">
+            <label for="T_image">Time spent on images (T_image):</label>
+            <input type="number" id="T_image" value="7" min="0" step="0.1">
+        </div>
+        <div class="input-group">
+            <label for="T_video">Time spent on videos (T_video):</label>
+            <input type="number" id="T_video" value="10" min="0" step="0.1">
+        </div>
+        <div class="input-group">
+            <label for="T_read">Time spent on reading (T_read):</label>
+            <input type="number" id="T_read" value="11" min="0" step="0.1">
+        </div>
+        <div class="input-group">
+            <label for="T_audio">Time spent on audio (T_audio):</label>
+            <input type="number" id="T_audio" value="8" min="0" step="0.1">
+        </div>
+        <div class="input-group">
+            <label for="T_hierarchies">Time spent on hierarchies (T_hierarchies):</label>
+            <input type="number" id="T_hierarchies" value="5" min="0" step="0.1">
+        </div>
+        <div class="input-group">
+            <label for="T_powerpoint">Time spent on powerpoint (T_powerpoint):</label>
+            <input type="number" id="T_powerpoint" value="4" min="0" step="0.1">
+        </div>
+        <div class="input-group">
+            <label for="T_concrete">Time spent on concrete examples (T_concrete):</label>
+            <input type="number" id="T_concrete" value="5" min="0" step="0.1">
+        </div>
+        <div class="input-group">
+            <label for="T_result">Time spent on results (T_result):</label>
+            <input type="number" id="T_result" value="6" min="0" step="0.1">
+        </div>
+        <div class="input-group">
+            <label for="N_standard_questions_correct">Number of standard questions correct (N_standard_questions_correct):</label>
+            <input type="number" id="N_standard_questions_correct" value="60" min="0" step="0.1">
+        </div>
+        <div class="input-group">
+            <label for="N_msgs_posted">Number of messages posted (N_msgs_posted):</label>
+            <input type="number" id="N_msgs_posted" value="120" min="0" step="0.1">
+        </div>
+        <div class="input-group">
+            <label for="T_solve_excercise">Time spent solving exercises (T_solve_excercise):</label>
+            <input type="number" id="T_solve_excercise" value="9" min="0" step="0.1">
+        </div>
+        <div class="input-group">
+            <label for="N_group_discussions">Number of group discussions (N_group_discussions):</label>
+            <input type="number" id="N_group_discussions" value="10" min="0" step="0.1">
+        </div>
+        <div class="input-group">
+            <label for="Skipped_los">Skipped learning objectives (Skipped_los):</label>
+            <input type="number" id="Skipped_los" value="5" min="0" step="0.1">
+        </div>
+        <div class="input-group">
+            <label for="N_next_button_used">Number of next buttons used (N_next_button_used):</label>
+            <input type="number" id="N_next_button_used" value="150" min="0" step="0.1">
+        </div>
+        <div class="input-group">
+            <label for="T_spent_in_session">Time spent in session (T_spent_in_session):</label>
+            <input type="number" id="T_spent_in_session" value="18" min="0" step="0.1">
+        </div>
+        <div class="input-group">
+            <label for="N_questions_on_details">Number of questions on details (N_questions_on_details):</label>
+            <input type="number" id="N_questions_on_details" value="80" min="0" step="0.1">
+        </div>
+        <div class="input-group">
+            <label for="N_questions_on_outlines">Number of questions on outlines (N_questions_on_outlines):</label>
+            <input type="number" id="N_questions_on_outlines" value="70" min="0" step="0.1">
+        </div>
+
+        <button id="predictButton">Predict Learning Style</button>
+        <button id="generateRandomButton" class="secondary-button">Generate Random Data</button>
+
+        <div class="sample-data-buttons">
+            <h3>Load Sample Data:</h3>
+            <button id="loadVisualData">Visual Learner (0)</button>
+            <button id="loadAuditoryData">Auditory Learner (1)</button>
+            <button id="loadReadWriteData">Read/Write Learner (2)</button>
+            <button id="loadKinestheticData">Kinesthetic Learner (3)</button>
+        </div>
+
+        <div class="result-box">
+            <h2>Predicted Learning Style:</h2>
+            <p id="learningStyleResult">N/A</p>
+        </div>
+
+        <div class="loading-indicator" id="loadingIndicator">
+            Predicting...
+        </div>
+
+        <div class="error-message" id="errorMessage">
+            <!-- Error messages will be displayed here -->
+        </div>
+
+        <div class="disclaimer">
+            <h3>Note:</h3>
+            <p>This application utilizes a Random Forest Classifier trained on the provided dataset. The accuracy of the prediction depends on the quality and size of the training data.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
