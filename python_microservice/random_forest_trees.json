@@ -1,0 +1,6194 @@
+[
+  {
+    "tree_index": 0,
+    "structure": {
+      "name": "N_msgs_posted <= 200.25",
+      "children": [
+        {
+          "name": "N_group_discussions <= 10.25",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 82.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 19.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_group_discussions <= 6.25",
+          "children": [
+            {
+              "name": "T_read <= 6.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_video <= 11.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 1,
+    "structure": {
+      "name": "T_result <= 6.25",
+      "children": [
+        {
+          "name": "T_spent_in_session <= 11.25",
+          "children": [
+            {
+              "name": "T_video <= 11.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "Skipped_los <= 5.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_standard_questions_correct <= 82.25",
+          "children": [
+            {
+              "name": "N_questions_on_details <= 69.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_outlines <= 118.0",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 2,
+    "structure": {
+      "name": "N_msgs_posted <= 200.25",
+      "children": [
+        {
+          "name": "N_standard_questions_correct <= 82.25",
+          "children": [
+            {
+              "name": "Skipped_los <= 12.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_read <= 9.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skipped_los <= 13.75",
+          "children": [
+            {
+              "name": "T_read <= 10.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_audio <= 6.5",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 3,
+    "structure": {
+      "name": "N_msgs_posted <= 200.25",
+      "children": [
+        {
+          "name": "N_next_button_used <= 216.0",
+          "children": [
+            {
+              "name": "N_questions_on_outlines <= 111.5",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 20.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_solve_excercise <= 9.25",
+          "children": [
+            {
+              "name": "Skipped_los <= 13.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "Skipped_los <= 12.5",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 4,
+    "structure": {
+      "name": "T_result <= 6.25",
+      "children": [
+        {
+          "name": "N_questions_on_details <= 112.25",
+          "children": [
+            {
+              "name": "T_video <= 7.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_next_button_used <= 105.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_questions_on_outlines <= 117.0",
+          "children": [
+            {
+              "name": "N_questions_on_details <= 80.5",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_group_discussions <= 11.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 5,
+    "structure": {
+      "name": "T_video <= 9.75",
+      "children": [
+        {
+          "name": "T_spent_in_session <= 14.75",
+          "children": [
+            {
+              "name": "T_read <= 7.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_read <= 10.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_next_button_used <= 26.0",
+          "children": [
+            {
+              "name": "T_hierarchies <= 6.0",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)"
+                },
+                {
+                  "name": "Visual\\n(n=1)"
+                }
+              ]
+            },
+            {
+              "name": "Skipped_los <= 1.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 6,
+    "structure": {
+      "name": "T_read <= 7.25",
+      "children": [
+        {
+          "name": "N_standard_questions_correct <= 82.25",
+          "children": [
+            {
+              "name": "Skipped_los <= 12.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)"
+                }
+              ]
+            },
+            {
+              "name": "T_result <= 7.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_hierarchies <= 2.75",
+          "children": [
+            {
+              "name": "T_video <= 10.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_next_button_used <= 124.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 7,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "N_next_button_used <= 218.5",
+          "children": [
+            {
+              "name": "T_spent_in_session <= 20.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_hierarchies <= 3.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_powerpoint <= 4.25",
+          "children": [
+            {
+              "name": "T_read <= 10.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_read <= 9.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 8,
+    "structure": {
+      "name": "T_read <= 7.25",
+      "children": [
+        {
+          "name": "T_result <= 6.25",
+          "children": [
+            {
+              "name": "N_group_discussions <= 12.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 222.5",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_spent_in_session <= 18.25",
+          "children": [
+            {
+              "name": "T_read <= 10.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_powerpoint <= 6.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 9,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "N_questions_on_details <= 109.75",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 162.5",
+              "children": [
+                {
+                  "name": "Visual\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 17.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_spent_in_session <= 14.75",
+          "children": [
+            {
+              "name": "T_result <= 6.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_standard_questions_correct <= 96.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 10,
+    "structure": {
+      "name": "N_msgs_posted <= 200.25",
+      "children": [
+        {
+          "name": "T_result <= 6.25",
+          "children": [
+            {
+              "name": "N_questions_on_details <= 94.5",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 79.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_next_button_used <= 30.5",
+          "children": [
+            {
+              "name": "T_solve_excercise <= 7.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_concrete <= 3.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 11,
+    "structure": {
+      "name": "T_hierarchies <= 2.75",
+      "children": [
+        {
+          "name": "N_standard_questions_correct <= 81.75",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 172.0",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_result <= 6.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_video <= 7.25",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 83.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 219.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 12,
+    "structure": {
+      "name": "T_spent_in_session <= 14.75",
+      "children": [
+        {
+          "name": "T_read <= 7.25",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 82.0",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_hierarchies <= 2.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_questions_on_outlines <= 27.25",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 85.0",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)"
+                }
+              ]
+            },
+            {
+              "name": "T_powerpoint <= 6.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 13,
+    "structure": {
+      "name": "T_result <= 6.25",
+      "children": [
+        {
+          "name": "N_next_button_used <= 218.0",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 162.5",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_solve_excercise <= 11.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_group_discussions <= 10.25",
+          "children": [
+            {
+              "name": "N_next_button_used <= 216.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_read <= 6.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 14,
+    "structure": {
+      "name": "T_powerpoint <= 4.25",
+      "children": [
+        {
+          "name": "N_msgs_posted <= 174.75",
+          "children": [
+            {
+              "name": "T_video <= 10.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_powerpoint <= 3.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_msgs_posted <= 208.0",
+          "children": [
+            {
+              "name": "T_read <= 7.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 141.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 15,
+    "structure": {
+      "name": "T_read <= 9.25",
+      "children": [
+        {
+          "name": "N_standard_questions_correct <= 82.25",
+          "children": [
+            {
+              "name": "T_video <= 9.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_outlines <= 118.5",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_questions_on_details <= 105.75",
+          "children": [
+            {
+              "name": "T_solve_excercise <= 8.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_next_button_used <= 177.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 16,
+    "structure": {
+      "name": "T_read <= 7.25",
+      "children": [
+        {
+          "name": "Skipped_los <= 3.75",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 171.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_solve_excercise <= 9.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_hierarchies <= 2.75",
+          "children": [
+            {
+              "name": "T_image <= 7.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 202.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 17,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "N_msgs_posted <= 172.75",
+          "children": [
+            {
+              "name": "N_next_button_used <= 164.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_solve_excercise <= 6.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_questions_on_details <= 79.75",
+          "children": [
+            {
+              "name": "N_group_discussions <= 10.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_standard_questions_correct <= 98.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 18,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "N_msgs_posted <= 172.75",
+          "children": [
+            {
+              "name": "T_spent_in_session <= 13.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 20.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_result <= 6.25",
+          "children": [
+            {
+              "name": "T_solve_excercise <= 11.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_read <= 9.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 19,
+    "structure": {
+      "name": "T_read <= 7.25",
+      "children": [
+        {
+          "name": "N_standard_questions_correct <= 82.25",
+          "children": [
+            {
+              "name": "T_video <= 9.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_concrete <= 2.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)"
+                },
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_video <= 7.75",
+          "children": [
+            {
+              "name": "T_image <= 7.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 242.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 20,
+    "structure": {
+      "name": "T_read <= 7.25",
+      "children": [
+        {
+          "name": "N_group_discussions <= 10.25",
+          "children": [
+            {
+              "name": "T_powerpoint <= 4.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 174.0",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_standard_questions_correct <= 96.25",
+          "children": [
+            {
+              "name": "N_next_button_used <= 140.5",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "Skipped_los <= 2.0",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 21,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "T_video <= 11.25",
+          "children": [
+            {
+              "name": "T_solve_excercise <= 8.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 18.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_questions_on_details <= 79.75",
+          "children": [
+            {
+              "name": "N_questions_on_outlines <= 112.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_next_button_used <= 33.0",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 22,
+    "structure": {
+      "name": "T_spent_in_session <= 14.75",
+      "children": [
+        {
+          "name": "N_standard_questions_correct <= 82.25",
+          "children": [
+            {
+              "name": "T_video <= 7.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_read <= 7.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skipped_los <= 7.75",
+          "children": [
+            {
+              "name": "T_solve_excercise <= 9.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 40.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 23,
+    "structure": {
+      "name": "N_group_discussions <= 10.25",
+      "children": [
+        {
+          "name": "N_standard_questions_correct <= 82.0",
+          "children": [
+            {
+              "name": "T_spent_in_session <= 14.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_result <= 6.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_powerpoint <= 3.25",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 81.0",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_solve_excercise <= 9.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 24,
+    "structure": {
+      "name": "T_read <= 9.25",
+      "children": [
+        {
+          "name": "N_standard_questions_correct <= 82.25",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 160.5",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 20.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_next_button_used <= 220.0",
+          "children": [
+            {
+              "name": "T_solve_excercise <= 8.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 17.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 25,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "N_msgs_posted <= 172.5",
+          "children": [
+            {
+              "name": "T_read <= 5.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_video <= 11.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_spent_in_session <= 14.75",
+          "children": [
+            {
+              "name": "T_result <= 6.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "Skipped_los <= 8.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 26,
+    "structure": {
+      "name": "N_msgs_posted <= 200.25",
+      "children": [
+        {
+          "name": "N_next_button_used <= 218.25",
+          "children": [
+            {
+              "name": "N_questions_on_details <= 79.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_group_discussions <= 6.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skipped_los <= 13.75",
+          "children": [
+            {
+              "name": "T_video <= 11.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_standard_questions_correct <= 95.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 27,
+    "structure": {
+      "name": "N_msgs_posted <= 200.25",
+      "children": [
+        {
+          "name": "N_group_discussions <= 10.25",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 82.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "Skipped_los <= 4.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skipped_los <= 13.75",
+          "children": [
+            {
+              "name": "T_powerpoint <= 2.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_solve_excercise <= 7.5",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 28,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "T_read <= 10.25",
+          "children": [
+            {
+              "name": "N_next_button_used <= 218.5",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 106.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_result <= 6.25",
+          "children": [
+            {
+              "name": "T_image <= 7.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 222.5",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 29,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "N_msgs_posted <= 162.75",
+          "children": [
+            {
+              "name": "N_next_button_used <= 158.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_read <= 10.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_read <= 9.25",
+          "children": [
+            {
+              "name": "T_result <= 6.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_solve_excercise <= 11.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 30,
+    "structure": {
+      "name": "T_result <= 6.25",
+      "children": [
+        {
+          "name": "N_next_button_used <= 218.0",
+          "children": [
+            {
+              "name": "T_spent_in_session <= 11.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 11.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_read <= 9.25",
+          "children": [
+            {
+              "name": "T_result <= 7.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 233.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 31,
+    "structure": {
+      "name": "T_read <= 7.25",
+      "children": [
+        {
+          "name": "N_group_discussions <= 10.25",
+          "children": [
+            {
+              "name": "T_powerpoint <= 4.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 174.0",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_standard_questions_correct <= 96.25",
+          "children": [
+            {
+              "name": "T_read <= 11.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_standard_questions_correct <= 96.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 32,
+    "structure": {
+      "name": "N_msgs_posted <= 200.25",
+      "children": [
+        {
+          "name": "N_standard_questions_correct <= 82.25",
+          "children": [
+            {
+              "name": "N_next_button_used <= 198.0",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_standard_questions_correct <= 96.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_standard_questions_correct <= 99.0",
+          "children": [
+            {
+              "name": "T_video <= 11.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "Auditory\\n(n=1)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 33,
+    "structure": {
+      "name": "N_questions_on_details <= 82.75",
+      "children": [
+        {
+          "name": "N_standard_questions_correct <= 82.0",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 162.5",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=0)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_concrete <= 2.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_image <= 9.25",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 199.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_group_discussions <= 6.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 34,
+    "structure": {
+      "name": "N_group_discussions <= 10.25",
+      "children": [
+        {
+          "name": "N_standard_questions_correct <= 82.25",
+          "children": [
+            {
+              "name": "T_solve_excercise <= 8.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_result <= 6.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skipped_los <= 4.75",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 173.0",
+              "children": [
+                {
+                  "name": "Visual\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_next_button_used <= 127.0",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 35,
+    "structure": {
+      "name": "T_result <= 6.25",
+      "children": [
+        {
+          "name": "T_spent_in_session <= 20.25",
+          "children": [
+            {
+              "name": "T_video <= 7.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 22.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_group_discussions <= 10.25",
+          "children": [
+            {
+              "name": "T_spent_in_session <= 20.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_next_button_used <= 221.0",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 36,
+    "structure": {
+      "name": "T_powerpoint <= 4.25",
+      "children": [
+        {
+          "name": "N_msgs_posted <= 174.75",
+          "children": [
+            {
+              "name": "T_read <= 10.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 20.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_standard_questions_correct <= 82.25",
+          "children": [
+            {
+              "name": "T_video <= 7.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 225.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 37,
+    "structure": {
+      "name": "T_spent_in_session <= 14.75",
+      "children": [
+        {
+          "name": "N_group_discussions <= 10.25",
+          "children": [
+            {
+              "name": "T_powerpoint <= 4.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_video <= 7.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skipped_los <= 7.75",
+          "children": [
+            {
+              "name": "N_next_button_used <= 68.0",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_read <= 6.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 38,
+    "structure": {
+      "name": "N_questions_on_details <= 82.75",
+      "children": [
+        {
+          "name": "N_standard_questions_correct <= 82.25",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 162.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 196.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_standard_questions_correct <= 98.75",
+          "children": [
+            {
+              "name": "T_spent_in_session <= 15.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "Skipped_los <= 12.5",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 39,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "T_video <= 10.25",
+          "children": [
+            {
+              "name": "T_read <= 11.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "Skipped_los <= 4.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_group_discussions <= 10.25",
+          "children": [
+            {
+              "name": "T_result <= 6.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 231.5",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 40,
+    "structure": {
+      "name": "T_read <= 7.25",
+      "children": [
+        {
+          "name": "T_powerpoint <= 4.25",
+          "children": [
+            {
+              "name": "T_video <= 11.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 14.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=0)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_next_button_used <= 217.75",
+          "children": [
+            {
+              "name": "T_video <= 10.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 201.5",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 41,
+    "structure": {
+      "name": "T_result <= 6.25",
+      "children": [
+        {
+          "name": "N_msgs_posted <= 179.0",
+          "children": [
+            {
+              "name": "N_questions_on_details <= 71.0",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_outlines <= 136.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_questions_on_details <= 79.75",
+          "children": [
+            {
+              "name": "T_powerpoint <= 4.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_group_discussions <= 6.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 42,
+    "structure": {
+      "name": "T_read <= 7.25",
+      "children": [
+        {
+          "name": "T_result <= 6.25",
+          "children": [
+            {
+              "name": "T_spent_in_session <= 20.5",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_powerpoint <= 4.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_msgs_posted <= 202.25",
+          "children": [
+            {
+              "name": "Skipped_los <= 1.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_video <= 12.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 43,
+    "structure": {
+      "name": "T_read <= 7.25",
+      "children": [
+        {
+          "name": "T_powerpoint <= 4.25",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 173.0",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 227.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_msgs_posted <= 219.75",
+          "children": [
+            {
+              "name": "Skipped_los <= 3.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 106.0",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 44,
+    "structure": {
+      "name": "T_read <= 7.25",
+      "children": [
+        {
+          "name": "Skipped_los <= 3.75",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 170.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_powerpoint <= 4.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_msgs_posted <= 209.25",
+          "children": [
+            {
+              "name": "N_next_button_used <= 178.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 106.0",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 45,
+    "structure": {
+      "name": "T_read <= 7.25",
+      "children": [
+        {
+          "name": "N_msgs_posted <= 226.5",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 82.0",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_hierarchies <= 6.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_powerpoint <= 6.75",
+          "children": [
+            {
+              "name": "N_questions_on_details <= 106.0",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_audio <= 6.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 46,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "N_next_button_used <= 218.25",
+          "children": [
+            {
+              "name": "T_read <= 10.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 62.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_read <= 9.25",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 221.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_solve_excercise <= 11.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 47,
+    "structure": {
+      "name": "N_msgs_posted <= 172.75",
+      "children": [
+        {
+          "name": "N_standard_questions_correct <= 82.25",
+          "children": [
+            {
+              "name": "T_image <= 6.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "Skipped_los <= 7.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_read <= 6.75",
+          "children": [
+            {
+              "name": "T_spent_in_session <= 12.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_next_button_used <= 213.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 48,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "N_next_button_used <= 218.5",
+          "children": [
+            {
+              "name": "T_video <= 11.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 20.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_group_discussions <= 10.25",
+          "children": [
+            {
+              "name": "T_powerpoint <= 4.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "Skipped_los <= 4.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 49,
+    "structure": {
+      "name": "N_msgs_posted <= 200.0",
+      "children": [
+        {
+          "name": "N_questions_on_details <= 79.75",
+          "children": [
+            {
+              "name": "N_group_discussions <= 10.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=0)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 18.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_questions_on_details <= 110.0",
+          "children": [
+            {
+              "name": "T_video <= 11.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=0)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_solve_excercise <= 7.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 50,
+    "structure": {
+      "name": "T_spent_in_session <= 14.75",
+      "children": [
+        {
+          "name": "N_msgs_posted <= 222.25",
+          "children": [
+            {
+              "name": "T_read <= 7.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_video <= 11.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_standard_questions_correct <= 96.25",
+          "children": [
+            {
+              "name": "N_next_button_used <= 158.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_audio <= 7.5",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 51,
+    "structure": {
+      "name": "N_msgs_posted <= 200.25",
+      "children": [
+        {
+          "name": "T_read <= 7.25",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 82.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_powerpoint <= 6.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_questions_on_details <= 110.25",
+          "children": [
+            {
+              "name": "T_solve_excercise <= 9.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=0)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_standard_questions_correct <= 98.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 52,
+    "structure": {
+      "name": "N_msgs_posted <= 172.25",
+      "children": [
+        {
+          "name": "T_result <= 6.25",
+          "children": [
+            {
+              "name": "T_read <= 5.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_outlines <= 111.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_read <= 6.75",
+          "children": [
+            {
+              "name": "T_image <= 9.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_next_button_used <= 212.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 53,
+    "structure": {
+      "name": "N_group_discussions <= 10.25",
+      "children": [
+        {
+          "name": "T_spent_in_session <= 20.75",
+          "children": [
+            {
+              "name": "N_group_discussions <= 8.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "Skipped_los <= 5.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_spent_in_session <= 11.25",
+          "children": [
+            {
+              "name": "T_solve_excercise <= 9.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_outlines <= 87.0",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 54,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "N_msgs_posted <= 162.75",
+          "children": [
+            {
+              "name": "N_next_button_used <= 159.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 22.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_read <= 9.25",
+          "children": [
+            {
+              "name": "T_spent_in_session <= 20.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_next_button_used <= 178.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 55,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "N_msgs_posted <= 172.75",
+          "children": [
+            {
+              "name": "N_questions_on_details <= 93.5",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_read <= 10.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_powerpoint <= 4.25",
+          "children": [
+            {
+              "name": "N_questions_on_details <= 114.0",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_outlines <= 118.0",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 56,
+    "structure": {
+      "name": "T_read <= 7.25",
+      "children": [
+        {
+          "name": "T_concrete <= 4.75",
+          "children": [
+            {
+              "name": "T_powerpoint <= 6.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_powerpoint <= 4.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_powerpoint <= 6.75",
+          "children": [
+            {
+              "name": "T_video <= 10.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_next_button_used <= 69.0",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 57,
+    "structure": {
+      "name": "T_spent_in_session <= 14.75",
+      "children": [
+        {
+          "name": "N_questions_on_details <= 49.75",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 80.0",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_standard_questions_correct <= 98.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_standard_questions_correct <= 96.25",
+          "children": [
+            {
+              "name": "Skipped_los <= 5.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 150.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 58,
+    "structure": {
+      "name": "N_group_discussions <= 10.25",
+      "children": [
+        {
+          "name": "T_hierarchies <= 2.75",
+          "children": [
+            {
+              "name": "T_result <= 6.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_result <= 6.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_solve_excercise <= 11.75",
+          "children": [
+            {
+              "name": "Skipped_los <= 7.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 92.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 59,
+    "structure": {
+      "name": "N_group_discussions <= 10.25",
+      "children": [
+        {
+          "name": "T_result <= 6.25",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 162.5",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 222.0",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_questions_on_details <= 109.75",
+          "children": [
+            {
+              "name": "T_video <= 11.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_video <= 12.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 60,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "T_video <= 10.25",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 172.5",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 119.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_result <= 6.25",
+          "children": [
+            {
+              "name": "N_next_button_used <= 119.0",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_read <= 9.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 61,
+    "structure": {
+      "name": "N_msgs_posted <= 200.25",
+      "children": [
+        {
+          "name": "T_result <= 6.25",
+          "children": [
+            {
+              "name": "Skipped_los <= 7.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_group_discussions <= 10.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_solve_excercise <= 9.25",
+          "children": [
+            {
+              "name": "T_spent_in_session <= 11.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_video <= 12.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 62,
+    "structure": {
+      "name": "N_msgs_posted <= 200.25",
+      "children": [
+        {
+          "name": "N_standard_questions_correct <= 82.25",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 172.5",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 79.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_questions_on_details <= 110.0",
+          "children": [
+            {
+              "name": "N_group_discussions <= 11.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_video <= 5.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 63,
+    "structure": {
+      "name": "T_result <= 6.25",
+      "children": [
+        {
+          "name": "T_video <= 7.75",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 172.0",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 200.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=0)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_standard_questions_correct <= 82.25",
+          "children": [
+            {
+              "name": "T_solve_excercise <= 9.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 225.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=0)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 64,
+    "structure": {
+      "name": "T_powerpoint <= 4.25",
+      "children": [
+        {
+          "name": "N_questions_on_details <= 111.75",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 174.5",
+              "children": [
+                {
+                  "name": "Visual\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_read <= 12.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_read <= 7.25",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 82.0",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 208.0",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 65,
+    "structure": {
+      "name": "T_result <= 6.25",
+      "children": [
+        {
+          "name": "T_read <= 10.25",
+          "children": [
+            {
+              "name": "Skipped_los <= 12.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 179.0",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_standard_questions_correct <= 82.25",
+          "children": [
+            {
+              "name": "T_solve_excercise <= 9.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_video <= 13.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 66,
+    "structure": {
+      "name": "T_spent_in_session <= 14.75",
+      "children": [
+        {
+          "name": "N_questions_on_details <= 50.75",
+          "children": [
+            {
+              "name": "T_hierarchies <= 2.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 141.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_msgs_posted <= 188.75",
+          "children": [
+            {
+              "name": "N_questions_on_details <= 79.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 22.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 67,
+    "structure": {
+      "name": "N_group_discussions <= 10.25",
+      "children": [
+        {
+          "name": "N_msgs_posted <= 208.75",
+          "children": [
+            {
+              "name": "N_group_discussions <= 9.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_standard_questions_correct <= 99.0",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skipped_los <= 5.75",
+          "children": [
+            {
+              "name": "T_read <= 10.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 106.0",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 68,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "T_read <= 10.25",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 162.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 219.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_powerpoint <= 4.25",
+          "children": [
+            {
+              "name": "T_spent_in_session <= 18.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 79.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 69,
+    "structure": {
+      "name": "T_read <= 7.25",
+      "children": [
+        {
+          "name": "T_powerpoint <= 4.25",
+          "children": [
+            {
+              "name": "N_next_button_used <= 87.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_standard_questions_correct <= 82.0",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skipped_los <= 9.75",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 96.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_read <= 12.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 70,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.0",
+      "children": [
+        {
+          "name": "T_video <= 11.25",
+          "children": [
+            {
+              "name": "N_next_button_used <= 218.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 74.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_audio <= 8.75",
+          "children": [
+            {
+              "name": "N_questions_on_details <= 79.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_next_button_used <= 147.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 71,
+    "structure": {
+      "name": "N_next_button_used <= 218.25",
+      "children": [
+        {
+          "name": "T_read <= 7.25",
+          "children": [
+            {
+              "name": "T_solve_excercise <= 9.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 202.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skipped_los <= 7.75",
+          "children": [
+            {
+              "name": "T_concrete <= 7.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)"
+                }
+              ]
+            },
+            {
+              "name": "T_read <= 13.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 72,
+    "structure": {
+      "name": "T_read <= 9.25",
+      "children": [
+        {
+          "name": "T_spent_in_session <= 14.75",
+          "children": [
+            {
+              "name": "N_questions_on_details <= 51.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_outlines <= 27.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_spent_in_session <= 19.75",
+          "children": [
+            {
+              "name": "N_group_discussions <= 13.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_solve_excercise <= 9.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 73,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "T_solve_excercise <= 8.25",
+          "children": [
+            {
+              "name": "N_questions_on_details <= 68.0",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_read <= 10.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_group_discussions <= 10.25",
+          "children": [
+            {
+              "name": "T_powerpoint <= 4.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "Skipped_los <= 4.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 74,
+    "structure": {
+      "name": "T_spent_in_session <= 14.75",
+      "children": [
+        {
+          "name": "T_read <= 7.25",
+          "children": [
+            {
+              "name": "T_video <= 9.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_audio <= 6.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_solve_excercise <= 11.25",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 172.5",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_video <= 9.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 75,
+    "structure": {
+      "name": "N_next_button_used <= 218.25",
+      "children": [
+        {
+          "name": "N_msgs_posted <= 200.25",
+          "children": [
+            {
+              "name": "N_group_discussions <= 10.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 141.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_read <= 11.25",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 21.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 120.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 76,
+    "structure": {
+      "name": "N_msgs_posted <= 200.25",
+      "children": [
+        {
+          "name": "T_read <= 7.25",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 82.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_hierarchies <= 2.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_group_discussions <= 6.25",
+          "children": [
+            {
+              "name": "T_spent_in_session <= 12.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_read <= 9.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 77,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "N_questions_on_details <= 94.5",
+          "children": [
+            {
+              "name": "T_read <= 10.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "Skipped_los <= 2.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_group_discussions <= 10.25",
+          "children": [
+            {
+              "name": "T_result <= 6.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_concrete <= 2.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 78,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "T_video <= 9.75",
+          "children": [
+            {
+              "name": "T_solve_excercise <= 8.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=0)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 103.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_read <= 9.25",
+          "children": [
+            {
+              "name": "N_questions_on_outlines <= 117.5",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=0)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_solve_excercise <= 11.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 79,
+    "structure": {
+      "name": "N_msgs_posted <= 172.75",
+      "children": [
+        {
+          "name": "N_questions_on_details <= 79.75",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 82.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_hierarchies <= 4.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skipped_los <= 9.75",
+          "children": [
+            {
+              "name": "N_next_button_used <= 218.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_video <= 7.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 80,
+    "structure": {
+      "name": "N_next_button_used <= 218.25",
+      "children": [
+        {
+          "name": "N_msgs_posted <= 200.25",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 82.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_group_discussions <= 6.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_read <= 12.25",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 238.5",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 67.0",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 81,
+    "structure": {
+      "name": "N_msgs_posted <= 172.0",
+      "children": [
+        {
+          "name": "T_read <= 9.25",
+          "children": [
+            {
+              "name": "T_powerpoint <= 4.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 155.0",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_standard_questions_correct <= 95.75",
+          "children": [
+            {
+              "name": "N_questions_on_outlines <= 136.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_video <= 7.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 82,
+    "structure": {
+      "name": "T_result <= 6.25",
+      "children": [
+        {
+          "name": "T_video <= 11.25",
+          "children": [
+            {
+              "name": "N_questions_on_details <= 94.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 18.5",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_read <= 9.25",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 82.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 202.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 83,
+    "structure": {
+      "name": "N_next_button_used <= 218.25",
+      "children": [
+        {
+          "name": "N_group_discussions <= 10.25",
+          "children": [
+            {
+              "name": "T_read <= 9.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_next_button_used <= 185.5",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skipped_los <= 1.25",
+          "children": [
+            {
+              "name": "T_audio <= 9.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 20.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 84,
+    "structure": {
+      "name": "N_questions_on_details <= 82.75",
+      "children": [
+        {
+          "name": "N_msgs_posted <= 210.0",
+          "children": [
+            {
+              "name": "T_result <= 6.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 29.5",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_video <= 5.75",
+          "children": [
+            {
+              "name": "T_result <= 7.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_video <= 11.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 85,
+    "structure": {
+      "name": "T_video <= 7.75",
+      "children": [
+        {
+          "name": "N_group_discussions <= 8.75",
+          "children": [
+            {
+              "name": "Skipped_los <= 9.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 94.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_powerpoint <= 6.75",
+          "children": [
+            {
+              "name": "T_spent_in_session <= 10.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_standard_questions_correct <= 83.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 86,
+    "structure": {
+      "name": "N_questions_on_details <= 79.75",
+      "children": [
+        {
+          "name": "N_standard_questions_correct <= 82.0",
+          "children": [
+            {
+              "name": "T_solve_excercise <= 9.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_read <= 9.5",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=0)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_msgs_posted <= 200.25",
+          "children": [
+            {
+              "name": "N_next_button_used <= 197.5",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 141.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 87,
+    "structure": {
+      "name": "N_questions_on_details <= 82.75",
+      "children": [
+        {
+          "name": "T_result <= 6.25",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 162.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=0)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_group_discussions <= 10.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_spent_in_session <= 11.75",
+          "children": [
+            {
+              "name": "T_result <= 7.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_next_button_used <= 28.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 88,
+    "structure": {
+      "name": "T_read <= 7.25",
+      "children": [
+        {
+          "name": "N_group_discussions <= 10.25",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 82.0",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_next_button_used <= 49.5",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_questions_on_details <= 106.25",
+          "children": [
+            {
+              "name": "Skipped_los <= 1.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "Skipped_los <= 3.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 89,
+    "structure": {
+      "name": "T_read <= 7.25",
+      "children": [
+        {
+          "name": "N_standard_questions_correct <= 82.25",
+          "children": [
+            {
+              "name": "T_spent_in_session <= 19.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_group_discussions <= 10.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_standard_questions_correct <= 96.25",
+          "children": [
+            {
+              "name": "T_video <= 10.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "Skipped_los <= 2.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 90,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "N_msgs_posted <= 172.5",
+          "children": [
+            {
+              "name": "T_solve_excercise <= 11.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "Skipped_los <= 12.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_group_discussions <= 10.25",
+          "children": [
+            {
+              "name": "T_result <= 6.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_read <= 5.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 91,
+    "structure": {
+      "name": "T_result <= 6.25",
+      "children": [
+        {
+          "name": "N_next_button_used <= 212.25",
+          "children": [
+            {
+              "name": "Skipped_los <= 12.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 18.5",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_read <= 7.25",
+          "children": [
+            {
+              "name": "N_questions_on_details <= 31.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_hierarchies <= 2.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 92,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "T_video <= 9.25",
+          "children": [
+            {
+              "name": "T_spent_in_session <= 18.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_spent_in_session <= 15.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_questions_on_outlines <= 116.75",
+          "children": [
+            {
+              "name": "T_read <= 9.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 65.0",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 93,
+    "structure": {
+      "name": "T_spent_in_session <= 11.75",
+      "children": [
+        {
+          "name": "T_solve_excercise <= 9.75",
+          "children": [
+            {
+              "name": "T_read <= 6.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_concrete <= 7.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_standard_questions_correct <= 83.75",
+          "children": [
+            {
+              "name": "T_read <= 10.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_next_button_used <= 139.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 94,
+    "structure": {
+      "name": "T_powerpoint <= 4.25",
+      "children": [
+        {
+          "name": "N_msgs_posted <= 174.5",
+          "children": [
+            {
+              "name": "N_next_button_used <= 159.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_details <= 111.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_group_discussions <= 10.25",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 222.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_read <= 12.75",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 95,
+    "structure": {
+      "name": "T_read <= 7.25",
+      "children": [
+        {
+          "name": "N_standard_questions_correct <= 82.25",
+          "children": [
+            {
+              "name": "T_read <= 5.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_powerpoint <= 4.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_msgs_posted <= 211.5",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 96.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_solve_excercise <= 9.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 96,
+    "structure": {
+      "name": "N_next_button_used <= 218.25",
+      "children": [
+        {
+          "name": "N_questions_on_details <= 79.75",
+          "children": [
+            {
+              "name": "T_spent_in_session <= 14.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=0)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_video <= 5.75",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_read <= 12.25",
+          "children": [
+            {
+              "name": "T_solve_excercise <= 6.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_video <= 9.75",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 97,
+    "structure": {
+      "name": "T_read <= 7.25",
+      "children": [
+        {
+          "name": "T_powerpoint <= 4.25",
+          "children": [
+            {
+              "name": "T_solve_excercise <= 8.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_group_discussions <= 10.25",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_msgs_posted <= 219.75",
+          "children": [
+            {
+              "name": "T_powerpoint <= 6.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "T_video <= 11.25",
+              "children": [
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 98,
+    "structure": {
+      "name": "N_standard_questions_correct <= 82.25",
+      "children": [
+        {
+          "name": "T_image <= 6.25",
+          "children": [
+            {
+              "name": "N_standard_questions_correct <= 72.0",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_next_button_used <= 234.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T_result <= 6.25",
+          "children": [
+            {
+              "name": "Skipped_los <= 7.25",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_questions_on_outlines <= 117.5",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tree_index": 99,
+    "structure": {
+      "name": "T_result <= 6.25",
+      "children": [
+        {
+          "name": "T_solve_excercise <= 8.25",
+          "children": [
+            {
+              "name": "N_questions_on_details <= 94.75",
+              "children": [
+                {
+                  "name": "Visual\\n(n=0)\\n(...)"
+                },
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_msgs_posted <= 162.5",
+              "children": [
+                {
+                  "name": "Visual\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N_standard_questions_correct <= 82.25",
+          "children": [
+            {
+              "name": "N_msgs_posted <= 202.25",
+              "children": [
+                {
+                  "name": "Kinesthetic\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            },
+            {
+              "name": "N_group_discussions <= 10.5",
+              "children": [
+                {
+                  "name": "Auditory\\n(n=1)\\n(...)"
+                },
+                {
+                  "name": "Read/Write\\n(n=1)\\n(...)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

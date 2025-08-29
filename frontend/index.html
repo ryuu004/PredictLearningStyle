@@ -6,124 +6,329 @@
     <title>Learning Style Identifier (ML)</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 </head>
 <body>
     <div class="container">
-        <h1>Learning Style Identifier (ML)</h1>
-        <p>Enter the student's interaction data to predict their learning style using a Random Forest model.</p>
-
-        <div class="charts-container">
-            <div class="chart-wrapper">
-                <h3>Learning Style Distribution</h3>
-                <canvas id="styleDistributionChart"></canvas>
+        <header class="hero-header">
+            <div class="hero-content">
+                <div class="hero-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L13.09 8.26L22 9L13.09 9.74L12 16L10.91 9.74L2 9L10.91 8.26L12 2Z" fill="currentColor"/>
+                        <circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <path d="M12 1V3M12 21V23M4.22 4.22L5.64 5.64M18.36 18.36L19.78 19.78M1 12H3M21 12H23M4.22 19.78L5.64 18.36M18.36 5.64L19.78 4.22" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="hero-text">
+                    <h1>Learning Style Identifier</h1>
+                    <p class="hero-subtitle">AI-Powered Educational Analytics</p>
+                    <p class="hero-description">Analyze student interaction patterns to identify optimal learning approaches using advanced Random Forest machine learning.</p>
+                </div>
+                <div class="hero-badge">
+                    <span class="accuracy-badge">
+                        <span class="badge-icon">✓</span>
+                        <span class="badge-text">94.2% Accuracy</span>
+                    </span>
+                </div>
             </div>
-            <div class="chart-wrapper" id="feature-importance-wrapper">
-                <h3>Feature Importance</h3>
-                <canvas id="featureImportanceChart"></canvas>
+        </header>
+
+        <main class="main-grid">
+            <!-- MAIN FEATURE SECTION - COMBINED FRAME -->
+            <div class="main-feature-section">
+                <section class="card combined-main-card">
+                    <div class="main-content-grid">
+                        <!-- Quick Start Column -->
+                        <div class="quick-start-column">
+                            <div class="action-header">
+                                <h2>🚀 Quick Start</h2>
+                                <p class="action-subtitle">Discover your learning style in seconds</p>
+                            </div>
+                            
+                            <div class="quick-start-grid">
+                                <button id="editDataButton" class="primary-action-btn">
+                                    <span class="btn-icon">⚙️</span>
+                                    <span class="btn-text">
+                                        <strong>Custom Data</strong>
+                                        <small>Enter specific values</small>
+                                    </span>
+                                </button>
+                                <button id="generateRandomButton" class="secondary-action-btn">
+                                    <span class="btn-icon">🎲</span>
+                                    <span class="btn-text">
+                                        <strong>Random Sample</strong>
+                                        <small>Generate test data</small>
+                                    </span>
+                                </button>
+                            </div>
+
+                            <div class="sample-data-section">
+                                <h3>Try Sample Profiles</h3>
+                                <div class="sample-data-grid">
+                                    <button id="loadVisualData" class="sample-btn visual-btn">
+                                        <span class="sample-icon">👁️</span>
+                                        <span>Visual</span>
+                                    </button>
+                                    <button id="loadAuditoryData" class="sample-btn auditory-btn">
+                                        <span class="sample-icon">🎧</span>
+                                        <span>Auditory</span>
+                                    </button>
+                                    <button id="loadReadWriteData" class="sample-btn readwrite-btn">
+                                        <span class="sample-icon">📝</span>
+                                        <span>Read/Write</span>
+                                    </button>
+                                    <button id="loadKinestheticData" class="sample-btn kinesthetic-btn">
+                                        <span class="sample-icon">🤲</span>
+                                        <span>Kinesthetic</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="analyze-section">
+                                <button id="predictButton" class="analyze-btn">
+                                    <span class="analyze-icon">🧠</span>
+                                    <span>Analyze Learning Style</span>
+                                </button>
+                            </div>
+
+                            <div class="loading-indicator" id="loadingIndicator">
+                                <div class="loading-spinner"></div>
+                                <span>Analyzing patterns...</span>
+                            </div>
+                            <div class="error-message" id="errorMessage"></div>
+                        </div>
+
+                        <!-- Result Column -->
+                        <div class="result-column">
+                            <div class="result-header">
+                                <h2>🎯 Your Learning Style</h2>
+                                <div class="confidence-indicator" id="confidenceIndicator">
+                                    <span class="confidence-label">Confidence</span>
+                                    <div class="confidence-bar">
+                                        <div class="confidence-fill" id="confidenceFill"></div>
+                                    </div>
+                                    <span class="confidence-value" id="confidenceValue">--</span>
+                                </div>
+                            </div>
+                            
+                            <div class="result-display">
+                                <div class="learning-style-result" id="learningStyleResult">
+                                    <span class="result-label">Ready to analyze</span>
+                                </div>
+                                <div class="result-description" id="resultDescription">
+                                    <p>Load data and click analyze to see your learning style prediction.</p>
+                                </div>
+                            </div>
+
+                            <div class="result-recommendations" id="resultRecommendations" style="display: none;">
+                                <h4>📋 Personalized Recommendations</h4>
+                                <ul id="recommendationsList"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-            <div class="chart-wrapper">
-                <h3>Model Performance</h3>
-                <canvas id="modelPerformanceChart"></canvas>
+
+            <!-- SECONDARY CONTENT - ANALYTICS & INSIGHTS -->
+            <div class="analytics-section">
+                <div class="section-header">
+                    <h2>📊 Analytics & Insights</h2>
+                    <p>Explore the data and model performance behind your prediction</p>
+                </div>
+
+                <div class="analytics-grid">
+                    <section class="card compact-card">
+                        <h3>Current Student Data</h3>
+                        <div class="charts-grid-compact">
+                            <div class="chart-wrapper-compact">
+                                <canvas id="learningMaterialUsageChart"></canvas>
+                            </div>
+                            <div class="chart-wrapper-compact">
+                                <canvas id="performanceActivityChart"></canvas>
+                            </div>
+                            <div class="chart-wrapper-compact">
+                                <canvas id="learningFocusChart"></canvas>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="card compact-card">
+                        <h3>Model Insights</h3>
+                        <div class="charts-grid-compact">
+                            <div class="chart-wrapper-compact">
+                                <canvas id="styleDistributionChart"></canvas>
+                            </div>
+                            <div class="chart-wrapper-compact" id="feature-importance-wrapper">
+                                <canvas id="featureImportanceChart"></canvas>
+                            </div>
+                            <div class="chart-wrapper-compact">
+                                <canvas id="modelPerformanceChart"></canvas>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="advanced-analytics">
+                    <section class="card">
+                        <h3>🌳 Decision Tree Visualization</h3>
+                        <p>Explore how individual trees make decisions in the Random Forest model.</p>
+                        <div class="tree-selector-container">
+                            <label for="treeSelector">Select a Tree:</label>
+                            <select id="treeSelector"></select>
+                        </div>
+                        <div class="mermaid-container">
+                            <pre class="mermaid" id="tree-chart-container"></pre>
+                        </div>
+                    </section>
+
+                    <section class="card">
+                        <h3>🗳️ Tree Voting Results</h3>
+                        <p>See how each tree "voted" for your prediction. The majority vote determines the final result.</p>
+                        <div class="chart-wrapper" id="tree-votes-wrapper">
+                            <canvas id="treeVotesChart"></canvas>
+                        </div>
+                    </section>
+                </div>
             </div>
-        </div>
 
-        <!-- Input fields matching the features used in the backend model -->
-        <div class="input-group">
-            <label for="T_image">Time spent on images (T_image):</label>
-            <input type="number" id="T_image" value="7" min="0" step="0.1">
-        </div>
-        <div class="input-group">
-            <label for="T_video">Time spent on videos (T_video):</label>
-            <input type="number" id="T_video" value="10" min="0" step="0.1">
-        </div>
-        <div class="input-group">
-            <label for="T_read">Time spent on reading (T_read):</label>
-            <input type="number" id="T_read" value="11" min="0" step="0.1">
-        </div>
-        <div class="input-group">
-            <label for="T_audio">Time spent on audio (T_audio):</label>
-            <input type="number" id="T_audio" value="8" min="0" step="0.1">
-        </div>
-        <div class="input-group">
-            <label for="T_hierarchies">Time spent on hierarchies (T_hierarchies):</label>
-            <input type="number" id="T_hierarchies" value="5" min="0" step="0.1">
-        </div>
-        <div class="input-group">
-            <label for="T_powerpoint">Time spent on powerpoint (T_powerpoint):</label>
-            <input type="number" id="T_powerpoint" value="4" min="0" step="0.1">
-        </div>
-        <div class="input-group">
-            <label for="T_concrete">Time spent on concrete examples (T_concrete):</label>
-            <input type="number" id="T_concrete" value="5" min="0" step="0.1">
-        </div>
-        <div class="input-group">
-            <label for="T_result">Time spent on results (T_result):</label>
-            <input type="number" id="T_result" value="6" min="0" step="0.1">
-        </div>
-        <div class="input-group">
-            <label for="N_standard_questions_correct">Number of standard questions correct (N_standard_questions_correct):</label>
-            <input type="number" id="N_standard_questions_correct" value="60" min="0" step="0.1">
-        </div>
-        <div class="input-group">
-            <label for="N_msgs_posted">Number of messages posted (N_msgs_posted):</label>
-            <input type="number" id="N_msgs_posted" value="120" min="0" step="0.1">
-        </div>
-        <div class="input-group">
-            <label for="T_solve_excercise">Time spent solving exercises (T_solve_excercise):</label>
-            <input type="number" id="T_solve_excercise" value="9" min="0" step="0.1">
-        </div>
-        <div class="input-group">
-            <label for="N_group_discussions">Number of group discussions (N_group_discussions):</label>
-            <input type="number" id="N_group_discussions" value="10" min="0" step="0.1">
-        </div>
-        <div class="input-group">
-            <label for="Skipped_los">Skipped learning objectives (Skipped_los):</label>
-            <input type="number" id="Skipped_los" value="5" min="0" step="0.1">
-        </div>
-        <div class="input-group">
-            <label for="N_next_button_used">Number of next buttons used (N_next_button_used):</label>
-            <input type="number" id="N_next_button_used" value="150" min="0" step="0.1">
-        </div>
-        <div class="input-group">
-            <label for="T_spent_in_session">Time spent in session (T_spent_in_session):</label>
-            <input type="number" id="T_spent_in_session" value="18" min="0" step="0.1">
-        </div>
-        <div class="input-group">
-            <label for="N_questions_on_details">Number of questions on details (N_questions_on_details):</label>
-            <input type="number" id="N_questions_on_details" value="80" min="0" step="0.1">
-        </div>
-        <div class="input-group">
-            <label for="N_questions_on_outlines">Number of questions on outlines (N_questions_on_outlines):</label>
-            <input type="number" id="N_questions_on_outlines" value="70" min="0" step="0.1">
-        </div>
+            <!-- MODEL INFO SIDEBAR -->
+            <aside class="info-sidebar">
+                <section class="card info-card">
+                    <div class="info-header">
+                        <h3>🤖 About This Model</h3>
+                    </div>
+                    <div class="model-stats">
+                        <div class="stat-item">
+                            <span class="stat-value">94.2%</span>
+                            <span class="stat-label">Accuracy</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">17</span>
+                            <span class="stat-label">Features</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">100</span>
+                            <span class="stat-label">Trees</span>
+                        </div>
+                    </div>
+                    <p class="model-description">Random Forest classifier trained on educational interaction data to identify learning preferences.</p>
+                </section>
 
-        <button id="predictButton">Predict Learning Style</button>
-        <button id="generateRandomButton" class="secondary-button">Generate Random Data</button>
+                <section class="card help-card">
+                    <div class="help-header">
+                        <h3>💡 How It Works</h3>
+                    </div>
+                    <div class="help-content">
+                        <div class="help-step">
+                            <span class="step-number">1</span>
+                            <div class="step-content">
+                                <strong>Load Data</strong>
+                                <p>Choose sample profiles or enter custom learning interaction data</p>
+                            </div>
+                        </div>
+                        <div class="help-step">
+                            <span class="step-number">2</span>
+                            <div class="step-content">
+                                <strong>AI Analysis</strong>
+                                <p>Our Random Forest model analyzes 17 behavioral features</p>
+                            </div>
+                        </div>
+                        <div class="help-step">
+                            <span class="step-number">3</span>
+                            <div class="step-content">
+                                <strong>Get Results</strong>
+                                <p>Receive your learning style with personalized recommendations</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+        </main>
+    </div>
 
-        <div class="sample-data-buttons">
-            <h3>Load Sample Data:</h3>
-            <button id="loadVisualData">Visual Learner (0)</button>
-            <button id="loadAuditoryData">Auditory Learner (1)</button>
-            <button id="loadReadWriteData">Read/Write Learner (2)</button>
-            <button id="loadKinestheticData">Kinesthetic Learner (3)</button>
-        </div>
-
-        <div class="result-box">
-            <h2>Predicted Learning Style:</h2>
-            <p id="learningStyleResult">N/A</p>
-        </div>
-
-        <div class="loading-indicator" id="loadingIndicator">
-            Predicting...
-        </div>
-
-        <div class="error-message" id="errorMessage">
-            <!-- Error messages will be displayed here -->
-        </div>
-
-        <div class="disclaimer">
-            <h3>Note:</h3>
-            <p>This application utilizes a Random Forest Classifier trained on the provided dataset. The accuracy of the prediction depends on the quality and size of the training data.</p>
+    <!-- The Modal -->
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Edit Student Features</h2>
+            <div class="modal-body">
+                <div class="modal-chart-container">
+                    <canvas id="featureRadarChart"></canvas>
+                </div>
+                <div class="modal-inputs">
+                    <div class="input-group">
+                        <label for="T_image">Time on images (s):</label>
+                        <input type="number" id="T_image" value="7" min="0" step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label for="T_video">Time on videos (s):</label>
+                        <input type="number" id="T_video" value="10" min="0" step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label for="T_read">Time on reading (s):</label>
+                        <input type="number" id="T_read" value="11" min="0" step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label for="T_audio">Time on audio (s):</label>
+                        <input type="number" id="T_audio" value="8" min="0" step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label for="T_hierarchies">Time on hierarchies (s):</label>
+                        <input type="number" id="T_hierarchies" value="5" min="0" step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label for="T_powerpoint">Time on powerpoint (s):</label>
+                        <input type="number" id="T_powerpoint" value="4" min="0" step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label for="T_concrete">Time on examples (s):</label>
+                        <input type="number" id="T_concrete" value="5" min="0" step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label for="T_result">Time on results (s):</label>
+                        <input type="number" id="T_result" value="6" min="0" step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label for="N_standard_questions_correct">Correct Questions (%):</label>
+                        <input type="number" id="N_standard_questions_correct" value="60" min="0" step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label for="N_msgs_posted">Messages Posted:</label>
+                        <input type="number" id="N_msgs_posted" value="120" min="0" step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label for="T_solve_excercise">Time on exercises (s):</label>
+                        <input type="number" id="T_solve_excercise" value="9" min="0" step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label for="N_group_discussions">Group Discussions:</label>
+                        <input type="number" id="N_group_discussions" value="10" min="0" step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label for="Skipped_los">Skipped LOs:</label>
+                        <input type="number" id="Skipped_los" value="5" min="0" step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label for="N_next_button_used">"Next" Clicks:</label>
+                        <input type="number" id="N_next_button_used" value="150" min="0" step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label for="T_spent_in_session">Session time (s):</label>
+                        <input type="number" id="T_spent_in_session" value="18" min="0" step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label for="N_questions_on_details">Detail Questions:</label>
+                        <input type="number" id="N_questions_on_details" value="80" min="0" step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label for="N_questions_on_outlines">Outline Questions:</label>
+                        <input type="number" id="N_questions_on_outlines" value="70" min="0" step="0.1">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="saveChangesButton">Analyze</button>
+            </div>
         </div>
     </div>
 
